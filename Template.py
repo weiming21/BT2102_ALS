@@ -89,7 +89,7 @@ class Template():
         popup2()
 
     def connect_database(self):
-        pw = "BT2102group26"
+        ##pw = "Your password"
         db = "ALS"
         con = pymysql.connect(host="localhost",user="root",password=pw,database=db) 
         cur = con.cursor()
